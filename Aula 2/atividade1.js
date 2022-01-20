@@ -13,15 +13,18 @@ class StringManipulations {
      * @param  {String} subStr  substring to be matched
      * @return {String}
      */
-    findFirstMatch(subStr) {}
-
-
+    findFirstMatch(subStr) {
+        return this.subStr.findFirstMatch(subStr);
+    }
+    
     /**
      * Returns the last substring that matches the given string
      * @param  {String} subStr  substring to be matched
      * @return {String}
      */
-    findLastMatch(subStr) {}
+    findLastMatch(subStr) {
+        return this.subStr.findLastMatch(subStr);
+    }
 
     /**
      * Returns the fsubstring between two given other strings
@@ -29,7 +32,9 @@ class StringManipulations {
      * @param  {String} subStr2  ending of the match
      * @return {String}
      */
-    substringBetweenMatches(subStr1, subStr2) {}
+    substringBetweenMatches(subStr1, subStr2) {
+        if (string)
+    }
 
     /**
     Given the string attribute of the class, 
